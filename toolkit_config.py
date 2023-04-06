@@ -6,5 +6,5 @@ import os
 
 
 
-PRJDIR = r'D:\Users\刘晋\PycharmProjects\pythonProject'
+PRJDIR = r'D:\Users\刘晋\PycharmProjects\toolkit'
 DATADIR = os.path.join(PRJDIR, 'data')
