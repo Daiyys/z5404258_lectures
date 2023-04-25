@@ -40,7 +40,8 @@ print(fobj.closed)
 # Remember that we previously closed the file so we need to open it again
 fobj = open(SRCFILE, mode='r')
 # Contents using `.read`
-cnts = fobj.read()
+# cnts = fobj.read() ## OLD
+cnts = '' ## NEW
 print(f"First 20 characters in cnts: '{cnts[:20]}'")
 
 # Start with an empty string
