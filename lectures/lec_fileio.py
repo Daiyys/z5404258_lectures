@@ -202,11 +202,3 @@ def safe_open(pth, mode):
         and 'a' for appending. See the `open` function for more options.
     """
     pass
-
-
-
-
-
-
-
-
